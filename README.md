@@ -106,6 +106,9 @@ email-classification-fullstack/
 ├── models/               # Saved model files
 └── README.md             # Project documentation
 ```
+## 📩 Demo
+
+[Click Here](https://anishgitflow.github.io/email-classification-fullstack/)
 
 ## 🤝 Contributing
 
