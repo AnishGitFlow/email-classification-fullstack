@@ -1,6 +1,6 @@
 # Email Spam Detection System
 
-[![Demo](https://img.shields.io/badge/demo-available-green)](https://anishgitflow.github.io/email-classification-fullstack/)![Python](https://img.shields.io/badge/python-3.9-blue) 
+![Python](https://img.shields.io/badge/python-3.9-blue) 
 ![TensorFlow](https://img.shields.io/badge/tensorflow-2.x-orange) 
 ![React](https://img.shields.io/badge/react-18-blue) 
 ![Flask](https://img.shields.io/badge/flask-2.x-lightgrey)
