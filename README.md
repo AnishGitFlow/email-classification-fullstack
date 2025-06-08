@@ -1,9 +1,10 @@
 # Email Spam Detection System
 
-![Spam Detection Demo](https://img.shields.io/badge/demo-available-green) 
-![Python]
-![TensorFlow]
-![Flask]
+![Spam Detection Demo](https://anishgitflow.github.io/email-classification-fullstack/)
+![Python](https://img.shields.io/badge/python-3.9-blue) 
+![TensorFlow](https://img.shields.io/badge/tensorflow-2.x-orange) 
+![React](https://img.shields.io/badge/react-18-blue) 
+![Flask](https://img.shields.io/badge/flask-2.x-lightgrey)
 
 An end-to-end email spam detection system powered by a TensorFlow LSTM neural network with a modern web interface.
 
@@ -93,7 +94,7 @@ docker-compose up --build
 ## 📁 Project Structure
 
 ```
-email-spam-detection/
+email-classification-fullstack/
 ├── app.py                # Flask API
 ├── train-model.py        # LSTM model training script
 ├── Dockerfile            # Docker image config
@@ -106,8 +107,6 @@ email-spam-detection/
 ├── models/               # Saved model files
 └── README.md             # Project documentation
 ```
-
----
 
 ## 🤝 Contributing
 
