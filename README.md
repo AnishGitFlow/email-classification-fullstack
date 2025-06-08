@@ -110,5 +110,3 @@ email-classification-fullstack/
 ## 🤝 Contributing
 
 Contributions are welcome! Please open an issue first to discuss any major changes.
-
----
