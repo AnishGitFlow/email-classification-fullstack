@@ -1,10 +1,9 @@
 # Email Spam Detection System
 
 ![Spam Detection Demo](https://img.shields.io/badge/demo-available-green) 
-![Python](https://img.shields.io/badge/python-3.9-blue) 
-![TensorFlow](https://img.shields.io/badge/tensorflow-2.x-orange) 
-![React](https://img.shields.io/badge/react-18-blue) 
-![Flask](https://img.shields.io/badge/flask-2.x-lightgrey)
+![Python]
+![TensorFlow]
+![Flask]
 
 An end-to-end email spam detection system powered by a TensorFlow LSTM neural network with a modern web interface.
 
@@ -17,15 +16,14 @@ An end-to-end email spam detection system powered by a TensorFlow LSTM neural ne
 - **REST API**: Flask-powered endpoints for integration and testing
 - **Versatile Deployment**: Compatible with Docker, Heroku, Render, Vercel, and Railway
 - **Fallback/Demo Mode**: Operates even when the trained model isn't present
-- **Health Monitoring**: Built-in endpoints for system health and diagnostics
-
+  
 ---
 
 ## 🧠 System Architecture
 
 ```
 
-Frontend (React/HTML) → API (Flask) → LSTM Model (TensorFlow)
+Frontend (HTML) → API (Flask) → LSTM Model (TensorFlow)
 
 ````
 
@@ -37,13 +35,12 @@ Frontend (React/HTML) → API (Flask) → LSTM Model (TensorFlow)
 
 - Python 3.9+
 - Node.js (for the React frontend)
-- Docker (optional for containerized deployment)
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/email-spam-detection.git
-cd email-spam-detection
+git clone https://github.com/anishgitflow/email-classification-fullstack.git
+cd email-classification-fullstack
 ````
 
 ### 2. Set up the Backend
@@ -82,23 +79,6 @@ Simply open `index.html` in your browser.
 ```bash
 docker-compose up --build
 ```
-
-### Heroku
-
-```bash
-heroku create
-git push heroku main
-```
-
-### Render
-
-Push your code to a repository and connect it to [Render](https://render.com).
-
-### Vercel (Frontend Only)
-
-Push your frontend to a repository and link it to [Vercel](https://vercel.com).
-
----
 
 ## 🔌 API Endpoints
 
